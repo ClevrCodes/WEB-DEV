@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A closer look at the pressures that shape student life—from the classroom to everything beyond it."
+    />
+    <meta name="theme-color" content="#10110f" />
+    <title>Under Pressure — The student experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#" aria-label="Under Pressure home">
+        <span class="wordmark-mark" aria-hidden="true">u.</span>
+        <span>under pressure<span class="wordmark-period">.</span></span>
+      </a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="#pressures">The pressure points</a>
+        <a href="#inside">A closer look</a>
+        <span class="issue-label"><span class="live-dot"></span> student life, examined</span>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span>FIELD NOTES 01</span><span>THE STUDENT EXPERIENCE</span></p>
+          <h1 id="hero-title">A lot is<br />riding <span>on this.</span></h1>
+          <p class="hero-description">
+            Student life is more than lectures and late nights. It’s a stack of
+            expectations, decisions, and unknowns—often all arriving at once.
+          </p>
+          <a class="text-link" href="#pressures">Explore the pressure points <span aria-hidden="true">↘</span></a>
+          <div class="hero-footnote"><span class="footnote-line"></span> A closer look at what students carry.</div>
+        </div>
+
+        <div class="hero-art" aria-label="Abstract illustration of competing student pressures">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-orbit orbit-three"></div>
+          <div class="art-core"><span>STUDENT<br />LIFE</span><span class="core-spark" aria-hidden="true">✳</span></div>
+          <span class="orbit-label orbit-label-one">EXPECTATIONS</span>
+          <span class="orbit-label orbit-label-two">WHAT’S NEXT?</span>
+          <span class="orbit-label orbit-label-three">KEEP UP</span>
+          <span class="orbit-label orbit-label-four">MAKE IT COUNT</span>
+          <span class="art-coordinate">FIG. 01 / THE OVERLAP</span>
+        </div>
+
+        <div class="hero-index" aria-hidden="true">01 <span>—</span> 07</div>
+      </section>
+
+      <div class="ticker" aria-label="The pressures of student life are interconnected">
+        <div class="ticker-track" aria-hidden="true">
+          <span>DEADLINES</span><i>✳</i><span>EXPECTATIONS</span><i>✳</i><span>WHAT COMES NEXT?</span><i>✳</i>
+          <span>DEADLINES</span><i>✳</i><span>EXPECTATIONS</span><i>✳</i><span>WHAT COMES NEXT?</span><i>✳</i>
+        </div>
+      </div>
+
+      <section class="pressure-section section-shell" id="pressures" aria-labelledby="pressure-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow"><span>02 / THE LANDSCAPE</span></p>
+            <h2 id="pressure-title">Different pressures.<br /><span>Same crowded headspace.</span></h2>
+          </div>
+          <p class="section-intro">
+            There isn’t just one thing to think about. Academic, personal, and
+            practical pressures often overlap—and each has its own weight.
+          </p>
+        </div>
+
+        <div class="filter-row reveal" role="group" aria-label="Filter pressure points">
+          <span class="filter-label">VIEW BY</span>
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Everything <span>07</span></button>
+          <button class="filter-button" type="button" data-filter="study" aria-pressed="false">In the classroom <span>03</span></button>
+          <button class="filter-button" type="button" data-filter="life" aria-pressed="false">Beyond the classroom <span>04</span></button>
+        </div>
+
+        <div class="pressure-grid" id="pressure-grid">
+          <article class="pressure-card card-accent reveal" data-category="study">
+            <div class="card-top"><span class="card-number">01</span><span class="card-icon icon-academic" aria-hidden="true">↗</span></div>
+            <p class="card-kicker">ACADEMIC</p>
+            <h3>The grade<br />is never just a grade.</h3>
+            <p class="card-description">Marks can start to feel like a verdict—not only on an assignment, but on ability, effort, and what might be possible later.</p>
+            <div class="card-bottom"><span>PERFORMANCE</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </article>
+
+          <article class="pressure-card card-violet reveal" data-category="life">
+            <div class="card-top"><span class="card-number">02</span><span class="card-icon icon-time" aria-hidden="true">◷</span></div>
+            <p class="card-kicker">TIME &amp; ENERGY</p>
+            <h3>There are only<br />so many hours.</h3>
+            <p class="card-description">Classes, work, commuting, family, friends, rest. The calendar fills up faster than the day—and something always seems to be waiting.</p>
+            <div class="card-bottom"><span>THE FULL PLATE</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </article>
+
+          <article class="pressure-card card-orange reveal" data-category="life">
+            <div class="card-top"><span class="card-number">03</span><span class="card-icon icon-money" aria-hidden="true">$</span></div>
+            <p class="card-kicker">MONEY</p>
+            <h3>Education has<br />a price tag.</h3>
+            <p class="card-description">Tuition is only one line. Rent, food, books, transport, and everyday costs make money part of the student experience, too.</p>
+            <div class="card-bottom"><span>THE COST OF LIVING</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </article>
+
+          <article class="pressure-card card-blue reveal" data-category="study">
+            <div class="card-top"><span class="card-number">04</span><span class="card-icon icon-future" aria-hidden="true">⌁</span></div>
+            <p class="card-kicker">THE FUTURE</p>
+            <h3>Choose a path.<br />Choose it now.</h3>
+            <p class="card-description">Big decisions about courses, careers, and what comes after graduation can arrive before the answers feel clear.</p>
+            <div class="card-bottom"><span>UNCERTAINTY</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </article>
+
+          <article class="pressure-card card-green reveal" data-category="life">
+            <div class="card-top"><span class="card-number">05</span><span class="card-icon icon-people" aria-hidden="true">◎</span></div>
+            <p class="card-kicker">BELONGING</p>
+            <h3>Finding your people<br />is a pressure, too.</h3>
+            <p class="card-description">New places and new groups can bring a quiet question: do I fit here? Connection doesn’t always happen on schedule.</p>
+            <div class="card-bottom"><span>WHERE I FIT</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </article>
+
+          <article class="pressure-card card-pink reveal" data-category="study">
+            <div class="card-top"><span class="card-number">06</span><span class="card-icon icon-expectation" aria-hidden="true">〃</span></div>
+            <p class="card-kicker">EXPECTATIONS</p>
+            <h3>Whose definition<br />of success?</h3>
+            <p class="card-description">Family hopes, cultural expectations, peer comparison, and personal ambition can pull in different directions.</p>
+            <div class="card-bottom"><span>OTHER PEOPLE’S VOICES</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </article>
+
+          <article class="pressure-card card-yellow reveal" data-category="life">
+            <div class="card-top"><span class="card-number">07</span><span class="card-icon icon-self" aria-hidden="true">✳</span></div>
+            <p class="card-kicker">WHO AM I BECOMING?</p>
+            <h3>Growing up, in<br />real time.</h3>
+            <p class="card-description">Student years can hold change in identity, independence, relationships, and self-image—all while everything else keeps moving.</p>
+            <div class="card-bottom"><span>IN-BETWEEN</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+          </article>
+        </div>
+        <p class="filter-status" aria-live="polite"></p>
+      </section>
+
+      <section class="quote-section" id="inside" aria-labelledby="quote-title">
+        <div class="quote-inner reveal">
+          <p class="eyebrow"><span>03 / THE OVERLAP</span></p>
+          <h2 id="quote-title">It’s rarely <em>one</em> thing.</h2>
+          <div class="quote-bottom">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <p>A deadline doesn’t pause for a difficult week. A big decision doesn’t wait until the budget is sorted. The pressures of student life share the same space—and the same person.</p>
+            <span class="quote-caption">A SNAPSHOT OF STUDENT LIFE <span>↗</span></span>
+          </div>
+        </div>
+        <div class="quote-decoration" aria-hidden="true">×</div>
+      </section>
+
+      <section class="closing-section section-shell reveal">
+        <p class="eyebrow"><span>THE BIGGER PICTURE</span></p>
+        <p class="closing-copy">Student life is a whole lot to hold.<br /><span>That’s part of the story.</span></p>
+        <a href="#main" class="back-top">BACK TO THE TOP <span aria-hidden="true">↑</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-wordmark" href="#"><span class="wordmark-mark" aria-hidden="true">u.</span><span>under pressure<span class="wordmark-period">.</span></span></a>
+      <p>A field guide to the many layers of student life.</p>
+      <span class="footer-index">AN OPEN-ENDED CONVERSATION · 2025</span>
+    </footer>
+  </body>
+</html>
